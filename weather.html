@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="weather.css">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+	<div class="navbar">
+		<h1 class="head1">ob-havo js</h1>
+	</div>
+
+	<div class="box">
+		<input type="text" id="values" placeholder="Shaharni kiriting" autofocus>
+		<button class="btn" id="getInfo">Tasdiqlash</button>
+	</div>
+
+
+	<div class="container">
+		<div class="box1">
+			<div class="head">Country </div>
+			<div class="body" id="country"></div>
+		</div>
+		<div class="box1">
+			<div class="head">City</div>
+			<div class="body" id="city"></div>
+		</div>
+		<div class="box1">
+			<div class="head">Temperature</div>
+			<div class="body" id="temp"></div>
+		</div>
+		<div class="box1">
+			<div class="head">Description</div>
+			<div class="body" id="desc"></div>
+		</div>
+		<div class="box1">
+			<div class="head">info</div>
+			<div class="body" id="info"></div>
+		</div>
+	</div>
+	<script src="weather.js"></script>
+</body>
+</html>
